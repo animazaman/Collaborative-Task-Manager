@@ -3,11 +3,10 @@ import './SignIn.css'
 const SignIn = () => {
     return (
         <div className='sign-in-container'>
-            <div className='sign-in'>
-                <input type="text" placeholder="username"/>
-                <input type="password" name="" id="" placeholder="password"/>
-            </div>
-                <button>Sign in</button>
+            <h3>Sign in</h3>
+            <input type="text" placeholder="username"/>
+            <input type="password" name="" id="" placeholder="password"/>
+            <button>Sign in</button>
         </div>
     );
 };

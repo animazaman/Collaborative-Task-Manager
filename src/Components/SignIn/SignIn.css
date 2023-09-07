@@ -1,8 +1,45 @@
-button{
-    padding: 12px 35px;
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-top: 50px;
+.sign-in-container{
+    background-color: #FFFFDD;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding: 5%;
+
+}
+.sign-in-container h3{
+    text-align: center;
+    color: #053B50;
+    font-size: 20px;
+    font-weight: 700;
+}
+.sign-in-container input{
+    background-color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 90px;
+    margin-bottom: 10px;
+    margin-top: 12px;
+    margin-left: 4%;
+    
+}
+.sign-in-container button{
     border-radius: 8px;
     border: none;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    background-color: #4D3C77;
+    margin-top: 9%;
+    margin-left: 33%;
+    font-weight: 700;
+}
+
+.sign-in-container button:hover{
+    background-color: #A2678A;
 }
