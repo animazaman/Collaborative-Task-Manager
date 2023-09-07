@@ -1,3 +1,7 @@
+.home-page img{
+    width: auto;
+    height: 700px;
+}
 .header{
     display: flex;
     justify-content: space-around;

@@ -3,6 +3,7 @@ import './App.css'
 import HomePage from './Components/HomePage/HomePage'
 import SignIn from './Components/SignIn/SignIn'
 import SignUp from './Components/SignUp/SignUp'
+import OpenPage from './Components/OpenPage/OpenPage'
 
 function App() {
   
@@ -11,8 +12,9 @@ function App() {
     <>
       <HomePage></HomePage>
       <Routes>
+        <Route path='/' element={<OpenPage></OpenPage>}></Route>
         <Route path='/sign-in' element={<SignIn></SignIn>}></Route>
-        <Route path='sign-up' element={<SignUp></SignUp>}></Route>
+        <Route path='/sign-up' element={<SignUp></SignUp>}></Route>
       </Routes>
     </>
   )
